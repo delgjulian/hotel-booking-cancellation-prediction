@@ -27,7 +27,9 @@ The analysis is based on the **Hotel Booking Demand** dataset, which contains **
 Dataset source (public):
 https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand
 
-🧪 Methodology
+---
+
+## 🧪 Methodology
 
 The analytical workflow follows a structured, end-to-end data science pipeline:
 
@@ -63,7 +65,9 @@ ROC-AUC
 
 Confusion matrices (raw and normalized)
 
-📈 Key Results
+---
+
+## 📈 Key Results
 
 Deposit type and lead time emerged as the most influential predictors of cancellation.
 
@@ -77,7 +81,9 @@ Detailed results, figures, and discussion are available in the full report:
 
 reports/predictive-analytics-hotel-booking-cancellations.pdf
 
-📁 Repository Structure
+---
+
+## 📁 Repository Structure
 hotel-booking-cancellation-prediction/
 ├── data/
 │   ├── raw/
@@ -92,7 +98,9 @@ hotel-booking-cancellation-prediction/
 ├── requirements.txt
 └── LICENSE
 
-▶️ How to Run
+---
+
+## ▶️ How to Run
 
 Clone the repository
 
@@ -110,13 +118,17 @@ Run the notebook:
 
 notebooks/00_end_to_end_hotel_booking_cancellations.ipynb
 
-⚠️ Notes and Limitations
+---
+
+## ⚠️ Notes and Limitations
 
 The analysis relies exclusively on booking-level data and does not include external economic or behavioral variables.
 
 Future work may incorporate macroeconomic indicators or customer sentiment analysis to further enhance predictive performance.
 
-👤 Author
+---
+
+## 👤 Author
 
 Julián Alberto Delgadillo Marín
 M.Sc. in Applied Economics (candidate)
